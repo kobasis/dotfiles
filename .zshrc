@@ -25,7 +25,6 @@ SAVEHIST=100000
 ### Aliases
 alias ll='ls -l'
 alias la='ls -a'
-#alias vim='nvim'
 
 ### keybind
 bindkey -e
