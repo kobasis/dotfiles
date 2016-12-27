@@ -102,7 +102,6 @@ eval "$(rbenv init -)"
 # pyenv
 eval "$(pyenv init -)"
 
-
 # zplug
 export ZPLUG_HOME=/usr/local/opt/zplug
 source $ZPLUG_HOME/init.zsh
@@ -110,6 +109,7 @@ zstyle :zplug:tag depth 1
 
 zplug "zsh-users/zsh-completions"
 zplug "felixr/docker-zsh-completion"
+zplug "zsh-users/zsh-autosuggestions"
 
 # Set the priority when loading
 # e.g., zsh-syntax-highlighting must be loaded
