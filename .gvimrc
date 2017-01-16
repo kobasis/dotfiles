@@ -78,7 +78,7 @@ if has('win32')
   endif
 elseif has('mac')
   set showtabline=2
-  set guifont=Ricty:h15
+  set guifont=Ricty_Diminished:h15
   set transparency=13
 else
   " Linux
