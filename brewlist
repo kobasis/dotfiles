@@ -25,6 +25,8 @@ node
 openssl
 pango
 pcre
+pcre2
+peco
 php70
 pixman
 pkg-config
