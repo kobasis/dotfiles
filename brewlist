@@ -1,5 +1,6 @@
 autoconf
 cairo
+coreutils
 fontconfig
 fontforge
 freetype
@@ -9,6 +10,7 @@ gettext
 git
 glib
 gobject-introspection
+grep
 harfbuzz
 icu4c
 jpeg

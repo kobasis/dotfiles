@@ -3,6 +3,7 @@ alfred
 appcleaner
 docker
 flux
+font-fira-code
 google-chrome
 google-drive
 google-japanese-ime
@@ -10,10 +11,12 @@ intellij-idea
 java
 kaleidoscope
 karabiner-elements
+kindle
 macdown
 macvim
 mysqlworkbench
 querious
+skim
 tower
 vagrant
 virtualbox
