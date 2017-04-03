@@ -126,3 +126,8 @@ fi
 
 # Then, source plugins and add commands to $PATH
 zplug load --verbose
+
+# brew cask
+if [ -f $(brew --prefix)/etc/brew-wrap ];then
+  source $(brew --prefix)/etc/brew-wrap
+fi
