@@ -196,7 +196,7 @@ let g:quickrun_config._ = {
 Plug 'othree/eregex.vim'
 
 " 位置揃え
-Plug 'Align'
+Plug 'junegunn/vim-easy-align'
 
 " Scala用
 Plug 'derekwyatt/vim-scala'
