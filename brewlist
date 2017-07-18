@@ -1,4 +1,5 @@
 autoconf
+brew-file
 cairo
 coreutils
 fontconfig
@@ -10,6 +11,7 @@ gettext
 git
 glib
 gobject-introspection
+graphite2
 grep
 harfbuzz
 icu4c
@@ -34,6 +36,7 @@ pixman
 pkg-config
 psysh
 pyenv
+python
 rbenv
 readline
 reattach-to-user-namespace
