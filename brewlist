@@ -1,6 +1,7 @@
 autoconf
 brew-file
 cairo
+composer
 coreutils
 fontconfig
 fontforge
