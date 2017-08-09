@@ -43,6 +43,7 @@ readline
 reattach-to-user-namespace
 ruby-build
 sqlite
+terminal-notifier
 tig
 tmux
 unison
