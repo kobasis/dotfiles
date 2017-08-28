@@ -1,6 +1,9 @@
 #!/bin/bash
-TESTFILE="./maslist"
+TESTFILE="./Brewfile"
 while read line; do
-  masid=`echo $line | cut -d ' ' -f 1`
-  mas install $masid
+  if echo "$line" | grep 'appstore' > /dev/null
+  then
+    masid=`echo $line | cut -d ' ' -f 2`
+    mas install $masid
+  fi
 done < $TESTFILE
