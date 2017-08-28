@@ -74,6 +74,10 @@ if has('win32')
     :set runtimepath+=$HOME/.vim
 endif
 
+if has('mac')
+  set backupskip=/tmp/*,/private/tmp/*
+endif
+
 "========================================
 " キーバインド
 "========================================
