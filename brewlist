@@ -16,6 +16,7 @@ graphite2
 grep
 harfbuzz
 icu4c
+imagemagick
 jpeg
 libevent
 libffi
@@ -49,6 +50,7 @@ tmux
 unison
 unixodbc
 vim
+xz
 zplug
 zsh
 zsh-completions
