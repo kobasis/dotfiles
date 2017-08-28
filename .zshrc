@@ -59,7 +59,7 @@ autoload -Uz VCS_INFO_get_data_git; VCS_INFO_get_data_git 2> /dev/null
 zmodload zsh/regex
 function rprompt-git-current-branch {
   local name st color gitdir action
-  if [[ "$PWD" -regex-match '/\.git(/.*)?$' ]]; then
+  if [[ "$PWD" =~ '/\.git(/.*)?$' ]]; then
     return
   fi
   name=$(basename "`git symbolic-ref HEAD 2> /dev/null`")
