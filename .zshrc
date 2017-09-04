@@ -86,7 +86,7 @@ function rprompt-git-current-branch {
 export LANG=ja_JP.UTF-8
 export XDG_CONFIG_HOME=~/.config
 
-RPROMPT='`rprompt-git-current-branch`'
+RPROMPT='`rprompt-git-current-branch` %~'
 
 export EDITOR=vim
 export SVN_EDITOR=vim
