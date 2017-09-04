@@ -30,66 +30,65 @@ tap caskroom/fonts
 cask font-fira-code
 
 tap homebrew/core
-brew autoconf
+brew unison
+brew node
+brew sqlite
 brew cairo
-brew coreutils
 brew fish
+brew libtiff
+brew mas
+brew jpeg
+brew python
+brew xz
+brew fswatch
+brew zsh-completions
+brew yarn
+brew mysql
+brew gdbm
+brew pyenv
+brew readline
+brew pcre
+brew gobject-introspection
+brew git
+brew coreutils
+brew lua
+brew gettext
 brew fontconfig
 brew fontforge
-brew freetype
-brew fswatch
-brew gdbm
-brew gettext
-brew git
+brew tmux
+brew libxml2
+brew libpng
+brew tig
+brew pixman
 brew glib
-brew gobject-introspection
+brew freetype
+brew unixodbc
 brew graphite2
-brew grep --with-default-names
+brew vim --with-lua
+brew libtool
 brew harfbuzz
-brew icu4c
-brew jpeg
 brew libevent
 brew libffi
-brew libpng
-brew libtiff
-brew libtool
-brew libxml2
-brew lua
-brew mas
-brew mysql
-brew node
-brew openssl
 brew pango
-brew pcre
 brew pcre2
 brew peco
-brew pixman
-brew pkg-config
-brew pyenv
-brew python
-brew rbenv
-brew readline
-brew reattach-to-user-namespace
-brew ruby-build
-brew sqlite
-brew terminal-notifier
-brew tig
-brew tmux
-brew unison
-brew unixodbc
-brew vim --with-lua
-brew xz
-brew yarn
+brew grep --with-default-names
 brew zplug
-brew zsh
-brew zsh-completions
+brew openssl
+brew terminal-notifier
+brew icu4c
+brew reattach-to-user-namespace
+brew autoconf
+brew rbenv
+brew ruby-build
+brew pkg-config
 
 tap homebrew/dupes
 
 tap homebrew/php
 brew composer
-brew php70
 brew psysh
+brew php70
 
 tap rcmdnk/file
 brew brew-file
@@ -101,13 +100,14 @@ cask google-drive
 appstore 918858936 Airmail 3 (3.3.2)
 appstore 973134470 Be Focused (1.6.2)
 appstore 417375580 BetterSnapTool (1.7)
-appstore 1024640650 CotEditor (3.2.0)
+appstore 1024640650 CotEditor (3.2.1)
 appstore 642220194 DeskConnect (1.2.2)
 appstore 913724705 Disk Care (1.5.1)
-appstore 406056744 Evernote (6.11.1)
+appstore 406056744 Evernote (6.12)
 appstore 510934532 FreeMan (1.4.1)
 appstore 682658836 GarageBand (10.2.0)
 appstore 408980954 GarageBand (6.0.5)
+appstore 775737590 iA Writer (4.0.4)
 appstore 490152466 iBooks Author (2.5)
 appstore 408981434 iMovie (10.1.6)
 appstore 685953216 Instashare (1.4.5)
