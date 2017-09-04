@@ -79,7 +79,7 @@ if has('win32')
 elseif has('mac')
   set showtabline=2
   set guifont=Menlo\ for\ Powerline:h12
-  set transparency=13
+  set transparency=0
 else
   " Linux
   set guifont=VL\ Gothic\ Regular\ 12
