@@ -1,1 +1,21 @@
+# deny all 
+/*
+/.*
+
+# allowed files
+!/.gitignore
+!/.tmux.conf
+!/.vimrc
+!/.gvimrc
+!/.zshrc
+!/Brewfile
+!/install_extra.sh
+!/mas_install.sh
+
+!/.config/fish/
+
+# ignogred files
 .DS_Store
+
+## fish env
+fishd.*
