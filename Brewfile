@@ -33,6 +33,7 @@ tap homebrew/core
 brew autoconf
 brew cairo
 brew coreutils
+brew fish
 brew fontconfig
 brew fontforge
 brew freetype
