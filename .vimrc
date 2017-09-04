@@ -234,6 +234,10 @@ Plug 'tomasr/molokai'
 
 " 補完
 Plug 'Shougo/neocomplete'
+
+" fish
+Plug 'dag/vim-fish'
+
 " Use neocomplete.
 let g:neocomplete#enable_at_startup = 1
 " " Use smartcase.
