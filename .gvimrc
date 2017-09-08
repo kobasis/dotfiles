@@ -3,7 +3,7 @@
 " An example for a Japanese version gvimrc file.
 " 日本語版のデフォルトGUI設定ファイル(gvimrc) - Vim7用試作
 "
-" Last Change: 04-Jan-2016.
+" Last Change: 05-Sep-2017.
 " Maintainer:  MURAOKA Taro <koron@tka.att.ne.jp>
 "
 " 解説:
@@ -204,3 +204,6 @@ if has('multi_byte_ime') || has('xim')
     highlight Cursor guifg=NONE guibg=White
     highlight CursorIM guifg=NONE guibg=Red
 endif
+
+" IM
+set imdisable

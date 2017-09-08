@@ -17,7 +17,6 @@ cask kaleidoscope
 cask karabiner-elements
 cask kindle
 cask macdown
-cask macvim
 cask mysqlworkbench
 cask querious
 cask skim
