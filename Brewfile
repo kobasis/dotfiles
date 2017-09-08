@@ -7,6 +7,7 @@ cask alfred
 cask android-studio
 cask appcleaner
 cask cheatsheet
+cask dash
 cask docker
 cask flux
 cask google-chrome
@@ -22,6 +23,7 @@ cask querious
 cask skim
 cask skype
 cask tower
+cask typora
 cask vagrant
 cask virtualbox
 
@@ -102,7 +104,7 @@ appstore 417375580 BetterSnapTool (1.7)
 appstore 1024640650 CotEditor (3.2.1)
 appstore 642220194 DeskConnect (1.2.2)
 appstore 913724705 Disk Care (1.5.1)
-appstore 406056744 Evernote (6.12)
+appstore 406056744 Evernote (6.12.1)
 appstore 510934532 FreeMan (1.4.1)
 appstore 682658836 GarageBand (10.2.0)
 appstore 408980954 GarageBand (6.0.5)
@@ -112,7 +114,6 @@ appstore 408981434 iMovie (10.1.6)
 appstore 685953216 Instashare (1.4.5)
 appstore 404167677 IP Scanner Pro (3.58)
 appstore 409183694 Keynote (7.2)
-appstore 576338668 Leaf (5.1.2)
 appstore 452520982 MiniPicker (1.1)
 appstore 409203825 Numbers (4.2)
 appstore 867299399 OmniFocus (2.10)
