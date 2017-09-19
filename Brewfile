@@ -38,12 +38,12 @@ brew cairo
 brew fish
 brew libtiff
 brew mas
-brew jpeg
+brew harfbuzz
 brew python
 brew xz
 brew fswatch
 brew zsh-completions
-brew yarn
+brew libgpg-error
 brew mysql
 brew gdbm
 brew pyenv
@@ -51,6 +51,7 @@ brew readline
 brew pcre
 brew gobject-introspection
 brew git
+brew libunistring
 brew coreutils
 brew lua
 brew gettext
@@ -59,28 +60,37 @@ brew fontforge
 brew tmux
 brew libxml2
 brew libpng
-brew tig
+brew gmp
+brew unixodbc
 brew pixman
 brew glib
+brew yarn
 brew freetype
-brew unixodbc
+brew libxmlsec1
 brew graphite2
 brew vim --with-lua
 brew libtool
-brew harfbuzz
+brew jpeg
 brew libevent
 brew libffi
+brew gnutls
 brew pango
 brew pcre2
+brew libgcrypt
 brew peco
+brew tig
 brew grep --with-default-names
+brew p11-kit
+brew rbenv
 brew zplug
+brew libtasn1
 brew openssl
 brew terminal-notifier
 brew icu4c
+brew nettle
 brew reattach-to-user-namespace
 brew autoconf
-brew rbenv
+brew gnu-sed
 brew ruby-build
 brew pkg-config
 
@@ -104,7 +114,7 @@ appstore 417375580 BetterSnapTool (1.7)
 appstore 1024640650 CotEditor (3.2.1)
 appstore 642220194 DeskConnect (1.2.2)
 appstore 913724705 Disk Care (1.5.1)
-appstore 406056744 Evernote (6.12.1)
+appstore 406056744 Evernote (6.12.2)
 appstore 510934532 FreeMan (1.4.1)
 appstore 682658836 GarageBand (10.2.0)
 appstore 408980954 GarageBand (6.0.5)
@@ -122,17 +132,19 @@ appstore 404478020 OmniOutliner (4.6.1)
 appstore 404478020 OmniOutliner (4.6.1)
 appstore 1142578772 OmniOutliner (5.1.1)
 appstore 1040002810 OmniPlan (3.7.2)
+appstore 928941247 OTP Manager (1.5.0)
 appstore 409201541 Pages (6.2)
 appstore 584653203 Paw (2.3.4)
-appstore 403504866 PCalc (4.4.4)
+appstore 403504866 PCalc (4.5)
 appstore 407963104 Pixelmator (3.6)
 appstore 568494494 Pocket (1.6.2)
 appstore 499768540 Power JSON Editor (1.4.8)
 appstore 866773894 Quiver (3.0.7)
 appstore 588726889 ReadKit (2.5.2)
 appstore 880001334 Reeder (3.0.5)
+appstore 1196139545 SCONE Diff (1.0.2)
 appstore 803453959 Slack (2.7.1)
-appstore 425424353 The Unarchiver (3.11.1)
+appstore 425424353 The Unarchiver (3.11.3)
 appstore 585829637 Todoist (7.0.2)
 appstore 403388562 Transmit (4.4.12)
 appstore 497799835 Xcode (8.3.3)
