@@ -11,7 +11,9 @@ end
 # alias
 alias g git
 alias docker-login docker_login
-alias sed gsed
+if type gsed > /dev/null 2>&1
+  alias sed gsed
+end
 
 # env
 set EDITOR vim
