@@ -99,9 +99,6 @@ compinit
 # rbenv
 eval "$(rbenv init -)"
 
-# pyenv
-eval "$(pyenv init -)"
-
 # zplug
 export ZPLUG_HOME=/usr/local/opt/zplug
 source $ZPLUG_HOME/init.zsh
