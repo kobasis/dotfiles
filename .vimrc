@@ -238,6 +238,10 @@ Plug 'Shougo/neocomplete'
 " fish
 Plug 'dag/vim-fish'
 
+" Swift
+Plug 'keith/swift'
+let g:syntastic_swift_checkers = ['swiftpm', 'swiftlint']
+
 " Use neocomplete.
 let g:neocomplete#enable_at_startup = 1
 " " Use smartcase.

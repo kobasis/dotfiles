@@ -1,81 +1,84 @@
 
 # tap repositories and their packages
 
-tap homebrew/dupes
-
 tap homebrew/core
-brew unison
-brew node
-brew sqlite
-brew libxml2
-brew fish
-brew libtiff
-brew freetype
-brew tmux
-brew vim --with-lua
-brew xz
-brew fswatch
-brew zsh-completions
-brew gettext
-brew mysql
-brew gdbm
-brew pcre
-brew gobject-introspection
-brew git
-brew libunistring
-brew lua
 brew autoconf
-brew libgpg-error
-brew fontconfig
-brew coreutils
 brew cairo
-brew libpng
-brew gmp
-brew unixodbc
-brew pixman
+brew cocoapods
+brew coreutils
+brew fish
+brew fontconfig
+brew freetype
+brew fswatch
+brew gdbm
+brew gettext
+brew git
 brew glib
-brew mas
-brew libmpc
-brew libxmlsec1
+brew gmp
+brew gnu-sed
+brew gnutls
+brew gobject-introspection
 brew graphite2
-brew libtool
+brew grep --with-default-names
+brew icu4c
+brew isl
 brew jpeg
+brew kotlin
 brew libevent
 brew libffi
-brew gnutls
-brew readline
-brew pcre2
 brew libgcrypt
-brew peco
-brew tig
-brew grep --with-default-names
-brew p11-kit
-brew rbenv
-brew zplug
+brew libgpg-error
+brew libmpc
+brew libpng
 brew libtasn1
-brew openssl
-brew yarn
-brew icu4c
-brew nettle
-brew reattach-to-user-namespace
-brew isl
-brew pkg-config
-brew gnu-sed
-brew ruby-build
+brew libtiff
+brew libtool
+brew libunistring
+brew libxml2
+brew libxmlsec1
+brew lua
+brew mas
 brew mpfr
+brew mysql
+brew nettle
+brew node
+brew openssl
+brew p11-kit
+brew pcre
+brew pcre2
+brew peco
+brew pixman
+brew pkg-config
+brew python3
+brew rbenv
+brew readline
+brew reattach-to-user-namespace
+brew ruby-build
+brew sqlite
+brew terminal-notifier
+brew tig
+brew tmux
+brew unison
+brew unixodbc
+brew vim --with-lua
+brew xz
+brew yarn
+brew zplug
+brew zsh-completions
+
+tap homebrew/dupes
 
 tap homebrew/php
 brew composer
-brew psysh
 brew php70
-
-tap caskroom/fonts
-cask font-fira-code
+brew psysh
 
 tap caskroom/cask
 cask flux
 cask cheatsheet
 cask virtualbox
+cask visual-studio-code
+cask diffmerge
 cask skype
 cask appcleaner
 cask karabiner-elements
@@ -99,6 +102,9 @@ cask mysqlworkbench
 cask keka
 cask kaleidoscope
 
+tap caskroom/fonts
+cask font-fira-code
+
 tap rcmdnk/file
 brew brew-file
 
@@ -106,10 +112,10 @@ brew brew-file
 cask google-drive
 
 # App Store applications
-appstore 918858936 Airmail 3 (3.5)
+appstore 918858936 Airmail 3 (3.5.2)
 appstore 973134470 Be Focused (1.6.2)
-appstore 417375580 BetterSnapTool (1.7)
-appstore 1024640650 CotEditor (3.2.2)
+appstore 417375580 BetterSnapTool (1.8)
+appstore 1024640650 CotEditor (3.2.3)
 appstore 642220194 DeskConnect (1.2.2)
 appstore 913724705 Disk Care (1.5.1)
 appstore 413857545 Divvy (1.5.1)
@@ -131,18 +137,18 @@ appstore 1040002810 OmniPlan (3.7.3)
 appstore 928941247 OTP Manager (1.5.0)
 appstore 409201541 Pages (6.3)
 appstore 584653203 Paw (2.3.4)
-appstore 403504866 PCalc (4.5)
+appstore 403504866 PCalc (4.5.1)
 appstore 407963104 Pixelmator (3.7)
 appstore 568494494 Pocket (1.6.6)
 appstore 499768540 Power JSON Editor (1.4.8)
-appstore 866773894 Quiver (3.0.7)
+appstore 866773894 Quiver (3.1.0)
 appstore 588726889 ReadKit (2.5.2)
 appstore 880001334 Reeder (3.0.5)
 appstore 1196139545 SCONE Diff (1.0.3)
 appstore 803453959 Slack (2.8.1)
 appstore 425424353 The Unarchiver (3.11.3)
-appstore 585829637 Todoist (7.0.3)
+appstore 585829637 Todoist (7.0.4)
 appstore 403388562 Transmit (4.4.12)
-appstore 1278508951 Trello (2.9.7)
-appstore 497799835 Xcode (9.0)
+appstore 1278508951 Trello (2.9.9)
+appstore 497799835 Xcode (9.0.1)
 appstore 639764244 Xee³ (3.5.3)
