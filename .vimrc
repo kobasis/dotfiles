@@ -235,6 +235,12 @@ Plug 'tomasr/molokai'
 " 補完
 Plug 'Shougo/neocomplete'
 
+
+" Use neocomplete.
+let g:neocomplete#enable_at_startup = 1
+" " Use smartcase.
+let g:neocomplete#enable_smart_case = 1
+
 " fish
 Plug 'dag/vim-fish'
 
@@ -242,10 +248,25 @@ Plug 'dag/vim-fish'
 Plug 'keith/swift'
 let g:syntastic_swift_checkers = ['swiftpm', 'swiftlint']
 
-" Use neocomplete.
-let g:neocomplete#enable_at_startup = 1
-" " Use smartcase.
-let g:neocomplete#enable_smart_case = 1
+" Markdown
+Plug 'gabrielelana/vim-markdown'
+let g:markdown_include_jekyll_support = 0
+let g:markdown_enable_spell_checking = 0
+
+" Marked
+Plug 'itspriddle/vim-marked'
+
+" Yankring
+Plug 'vim-scripts/YankRing.vim'
+
+" Close tag
+Plug 'alvan/vim-closetag'
+
+" Emmet
+Plug 'mattn/emmet-vim'
+let g:user_emmet_settings = {
+\   'lang' : 'ja'
+\ }
 
 " Required:
 call plug#end()

@@ -31,6 +31,7 @@ brew libevent
 brew libffi
 brew libgcrypt
 brew libgpg-error
+brew libiconv
 brew libmpc
 brew libpng
 brew libtasn1
@@ -39,6 +40,7 @@ brew libtool
 brew libunistring
 brew libxml2
 brew libxmlsec1
+brew libxslt
 brew lua
 brew mas
 brew mpfr
@@ -58,10 +60,12 @@ brew readline
 brew reattach-to-user-namespace
 brew ruby-build
 brew sbt
+brew scala
 brew sqlite
 brew terminal-notifier
 brew tig
 brew tmux
+brew tree
 brew unison
 brew unixodbc
 brew vim --with-lua
@@ -75,7 +79,6 @@ tap homebrew/dupes
 
 tap homebrew/php
 brew composer
-brew php70
 brew php71
 brew psysh
 
@@ -121,10 +124,11 @@ brew brew-file
 cask google-drive
 
 # App Store applications
-appstore 918858936 Airmail 3 (3.5.3)
+appstore 918858936 Airmail 3 (3.5.4)
+appstore 1037126344 Apple Configurator 2 (2.6)
 appstore 973134470 Be Focused (1.6.2)
 appstore 417375580 BetterSnapTool (1.8)
-appstore 1024640650 CotEditor (3.2.4)
+appstore 1024640650 CotEditor (3.2.6)
 appstore 642220194 DeskConnect (1.2.2)
 appstore 913724705 Disk Care (1.5.1)
 appstore 413857545 Divvy (1.5.1)
@@ -136,6 +140,7 @@ appstore 408981434 iMovie (10.1.8)
 appstore 685953216 Instashare (1.4.5)
 appstore 404167677 IP Scanner Pro (3.64)
 appstore 409183694 Keynote (7.3.1)
+appstore 402398561 MindNode Pro (1.11.5)
 appstore 452520982 MiniPicker (1.1)
 appstore 409203825 Numbers (4.3.1)
 appstore 867299399 OmniFocus (2.11.2)
@@ -152,11 +157,11 @@ appstore 866773894 Quiver (3.1.1)
 appstore 588726889 ReadKit (2.5.2)
 appstore 880001334 Reeder (3.1.2)
 appstore 1196139545 SCONE Diff (1.0.3)
-appstore 803453959 Slack (2.9.0)
+appstore 803453959 Slack (3.0.0)
 appstore 425424353 The Unarchiver (3.11.3)
 appstore 458887729 Translate Tab (2.0.1)
 appstore 403388562 Transmit (4.4.12)
 appstore 1278508951 Trello (2.10.0)
 appstore 557168941 Tweetbot (2.5.4)
-appstore 497799835 Xcode (9.1)
+appstore 497799835 Xcode (9.2)
 appstore 639764244 Xee³ (3.5.3)

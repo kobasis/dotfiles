@@ -18,8 +18,10 @@ if type gsed > /dev/null 2>&1
   alias sed gsed
 end
 alias noti terminal-notifier
-alias owata 'terminal-notifier -message "owata"'
 
 # env
-set EDITOR vim
+set -x EDITOR vim
 set -g fish_user_paths "/usr/local/sbin" $fish_user_paths
+
+# rbenv
+rbenv init - | source
