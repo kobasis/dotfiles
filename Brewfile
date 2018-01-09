@@ -32,8 +32,10 @@ brew libffi
 brew libgcrypt
 brew libgpg-error
 brew libiconv
+brew libidn2
 brew libmpc
 brew libpng
+brew libsodium
 brew libtasn1
 brew libtiff
 brew libtool
@@ -41,6 +43,7 @@ brew libunistring
 brew libxml2
 brew libxmlsec1
 brew libxslt
+brew libyaml
 brew lua
 brew mas
 brew mpfr
@@ -48,16 +51,20 @@ brew mysql
 brew nettle
 brew node
 brew openssl
+brew openssl@1.1
 brew p11-kit
 brew pcre
 brew pcre2
 brew peco
+brew perl
 brew pixman
 brew pkg-config
+brew python
 brew python3
 brew rbenv
 brew readline
 brew reattach-to-user-namespace
+brew ruby
 brew ruby-build
 brew sbt
 brew scala
@@ -69,8 +76,10 @@ brew tree
 brew unison
 brew unixodbc
 brew vim --with-lua
+brew wget
 brew wxmac
 brew xz
+brew yara
 brew yarn
 brew zplug
 brew zsh-completions
@@ -79,7 +88,7 @@ tap homebrew/dupes
 
 tap homebrew/php
 brew composer
-brew php71
+brew php72 --with-pear
 brew psysh
 
 tap caskroom/cask
@@ -125,10 +134,10 @@ cask google-drive
 
 # App Store applications
 appstore 918858936 Airmail 3 (3.5.4)
-appstore 1037126344 Apple Configurator 2 (2.6)
+appstore 1037126344 Apple Configurator 2 (2.6.1)
 appstore 973134470 Be Focused (1.6.2)
 appstore 417375580 BetterSnapTool (1.8)
-appstore 1024640650 CotEditor (3.2.6)
+appstore 1024640650 CotEditor (3.2.7)
 appstore 642220194 DeskConnect (1.2.2)
 appstore 913724705 Disk Care (1.5.1)
 appstore 413857545 Divvy (1.5.1)
@@ -140,6 +149,7 @@ appstore 408981434 iMovie (10.1.8)
 appstore 685953216 Instashare (1.4.5)
 appstore 404167677 IP Scanner Pro (3.64)
 appstore 409183694 Keynote (7.3.1)
+appstore 890031187 Marked 2 (2.5.10)
 appstore 402398561 MindNode Pro (1.11.5)
 appstore 452520982 MiniPicker (1.1)
 appstore 409203825 Numbers (4.3.1)
@@ -153,11 +163,11 @@ appstore 403504866 PCalc (4.5.3)
 appstore 407963104 Pixelmator (3.7)
 appstore 568494494 Pocket (1.6.6)
 appstore 499768540 Power JSON Editor (1.5.0)
-appstore 866773894 Quiver (3.1.1)
-appstore 588726889 ReadKit (2.5.2)
+appstore 866773894 Quiver (3.1.2)
+appstore 588726889 ReadKit (2.5.3)
 appstore 880001334 Reeder (3.1.2)
 appstore 1196139545 SCONE Diff (1.0.3)
-appstore 803453959 Slack (3.0.0)
+appstore 803453959 Slack (3.0.2)
 appstore 425424353 The Unarchiver (3.11.3)
 appstore 458887729 Translate Tab (2.0.1)
 appstore 403388562 Transmit (4.4.12)
