@@ -159,6 +159,8 @@ au BufRead,BufNewFile *.clj set filetype=clojure
 " config file filetype settings
 " au BufRead,BufNewFile .muttatorrc  set filetype=vim
 
+au BufRead,BufNewFile */.ssh/conf.d/**/* set filetype=sshconfig
+
 " ******************************************************************************
 " プラグイン
 " ******************************************************************************

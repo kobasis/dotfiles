@@ -1,7 +1,7 @@
 set fish_plugins theme peco
 
 function fish_user_key_bindings
-  bind \cr peco_select_history
+  bind \cr 'peco_sync_select_history (commandline -b)'
 end
 
 function docker_login
@@ -25,3 +25,14 @@ set -g fish_user_paths "/usr/local/sbin" $fish_user_paths
 
 # rbenv
 rbenv init - | source
+
+# Sync history
+function history-merge --on-event fish_preexec
+    history --save
+    history --merge
+end
+
+function peco_sync_select_history
+    history-merge
+    peco_select_history $argv
+end
