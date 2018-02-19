@@ -3,6 +3,7 @@
 
 tap homebrew/core
 brew autoconf
+brew awscli
 brew cairo
 brew carthage
 brew cocoapods
@@ -138,7 +139,7 @@ appstore 918858936 Airmail 3 (3.5.4)
 appstore 1037126344 Apple Configurator 2 (2.6.1)
 appstore 973134470 Be Focused (1.6.2)
 appstore 417375580 BetterSnapTool (1.8)
-appstore 1024640650 CotEditor (3.2.8)
+appstore 1024640650 CotEditor (3.3.2)
 appstore 642220194 DeskConnect (1.2.2)
 appstore 913724705 Disk Care (1.5.1)
 appstore 413857545 Divvy (1.5.1)
@@ -148,7 +149,7 @@ appstore 775737590 iA Writer (4.1.3)
 appstore 490152466 iBooks Author (2.6)
 appstore 408981434 iMovie (10.1.8)
 appstore 685953216 Instashare (1.4.6)
-appstore 404167677 IP Scanner Pro (3.64)
+appstore 404167677 IP Scanner Pro (3.65)
 appstore 409183694 Keynote (7.3.1)
 appstore 441258766 Magnet (2.1.0)
 appstore 890031187 Marked 2 (2.5.10)
@@ -159,11 +160,11 @@ appstore 867299399 OmniFocus (2.11.2)
 appstore 711830901 OmniGraffle (6.6.1)
 appstore 404478020 OmniOutliner (4.6.1)
 appstore 1142578772 OmniOutliner (5.2)
-appstore 1040002810 OmniPlan (3.8.1)
+appstore 1040002810 OmniPlan (3.9)
 appstore 409201541 Pages (6.3.1)
-appstore 403504866 PCalc (4.5.3)
+appstore 403504866 PCalc (4.5.4)
 appstore 407963104 Pixelmator (3.7)
-appstore 568494494 Pocket (1.6.7)
+appstore 568494494 Pocket (1.7.1)
 appstore 499768540 Power JSON Editor (1.5.0)
 appstore 476533227 Prepo (2.2.7)
 appstore 866773894 Quiver (3.1.2)
