@@ -9,6 +9,7 @@ function docker_login
 end
 
 # bind
+bind -e \cd
 bind \cd delete-char
 
 # alias
@@ -25,6 +26,7 @@ set -g fish_user_paths "/usr/local/sbin" $fish_user_paths
 
 # rbenv
 rbenv init - | source
+
 
 # Sync history
 function history-merge --on-event fish_preexec
