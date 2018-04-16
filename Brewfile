@@ -27,6 +27,7 @@ brew install c-ares
 brew install cairo
 brew install carthage
 brew install cocoapods
+brew install composer
 brew install coreutils
 brew install elixir
 brew install erlang
@@ -56,6 +57,7 @@ brew install isl
 brew install jansson
 brew install jemalloc
 brew install jpeg
+brew install jq
 brew install kotlin
 brew install libev
 brew install libevent
@@ -84,6 +86,7 @@ brew install mysql
 brew install nettle
 brew install nghttp2
 brew install node
+brew install oniguruma
 brew install openssl
 brew install openssl@1.1
 brew install p11-kit
@@ -124,38 +127,37 @@ brew install zplug
 brew install zsh-completions
 
 brew tap homebrew/php
-brew install composer
-brew install psysh
 
 brew tap caskroom/cask
-brew cask install appcode
-brew cask install paw
-brew cask install virtualbox
-brew cask install visual-studio-code
-brew cask install diffmerge
-brew cask install skype
-brew cask install appcleaner
-brew cask install karabiner-elements
-brew cask install macdown
-brew cask install intellij-idea
-brew cask install tower
-brew cask install typora
-brew cask install chatwork
-brew cask install docker
-brew cask install kindle
-brew cask install dash
-brew cask install vagrant
-brew cask install android-studio
 brew cask install 1password
-brew cask install querious
+brew cask install alfred
+brew cask install android-studio
+brew cask install appcleaner
+brew cask install chatwork
+brew cask install dash
+brew cask install db-browser-for-sqlite
+brew cask install diffmerge
+brew cask install docker
 brew cask install firefox
 brew cask install google-chrome
 brew cask install google-japanese-ime
+brew cask install intellij-idea
 brew cask install java
-brew cask install alfred
-brew cask install skim
-brew cask install mysqlworkbench
 brew cask install kaleidoscope
+brew cask install karabiner-elements
+brew cask install kindle
+brew cask install macdown
+brew cask install mysqlworkbench
+brew cask install paw
+brew cask install querious
+brew cask install skim
+brew cask install skype
+brew cask install tower
+brew cask install typora
+brew cask install vagrant
+brew cask install virtualbox
+brew cask install visual-studio-code
+brew cask install vivaldi
 
 brew tap caskroom/versions
 brew cask install java8
@@ -166,42 +168,43 @@ brew tap rcmdnk/file
 brew install brew-file
 
 # App Store applications
-#appstore 918858936 Airmail 3 (3.5.4)
-#appstore 1037126344 Apple Configurator 2 (2.6.1)
+#appstore 918858936 Airmail 3 (3.5.5)
+#appstore 1037126344 Apple Configurator 2 (2.7)
 #appstore 417375580 BetterSnapTool (1.8)
-#appstore 1024640650 CotEditor (3.3.4)
+#appstore 1024640650 CotEditor (3.3.5)
 #appstore 913724705 Disk Care (1.5.1)
 #appstore 682658836 GarageBand (10.2.0)
 #appstore 408980954 GarageBand (6.0.5)
 #appstore 775737590 iA Writer (4.2.1)
 #appstore 490152466 iBooks Author (2.6)
-#appstore 408981434 iMovie (10.1.8)
+#appstore 408981434 iMovie (10.1.9)
 #appstore 404167677 IP Scanner Pro (3.65)
-#appstore 409183694 Keynote (7.3.1)
+#appstore 409183694 Keynote (8.0)
 #appstore 890031187 Marked 2 (2.5.10)
 #appstore 452520982 MiniPicker (1.1)
-#appstore 409203825 Numbers (4.3.1)
-#appstore 867299399 OmniFocus (2.12)
+#appstore 409203825 Numbers (5.0)
+#appstore 867299399 OmniFocus (2.12.2)
 #appstore 711830901 OmniGraffle (6.6.1)
-#appstore 1142578772 OmniOutliner (5.2)
+#appstore 1142578772 OmniOutliner (5.3)
 #appstore 1040002810 OmniPlan (3.9.2)
-#appstore 409201541 Pages (6.3.1)
-#appstore 403504866 PCalc (4.5.4)
+#appstore 409201541 Pages (7.0)
+#appstore 403504866 PCalc (4.5.5)
 #appstore 407963104 Pixelmator (3.7)
-#appstore 568494494 Pocket (1.7.1)
-#appstore 499768540 Power JSON Editor (1.5.0)
+#appstore 568494494 Pocket (1.7.2)
+#appstore 499768540 Power JSON Editor (1.6.1)
 #appstore 476533227 Prepo (2.2.7)
-#appstore 866773894 Quiver (3.1.2)
+#appstore 866773894 Quiver (3.1.3)
 #appstore 588726889 ReadKit (2.5.4)
 #appstore 880001334 Reeder (3.1.2)
 #appstore 1196139545 SCONE Diff (1.0.4)
-#appstore 803453959 Slack (3.0.5)
-#appstore 425424353 The Unarchiver (3.11.3)
+#appstore 803453959 Slack (3.1.1)
+#appstore 425424353 The Unarchiver (3.11.5)
 #appstore 458887729 Translate Tab (2.0.1)
 #appstore 403388562 Transmit (4.4.12)
-#appstore 1278508951 Trello (2.10.2)
+#appstore 1278508951 Trello (2.10.3)
 #appstore 557168941 Tweetbot (2.5.4)
-#appstore 497799835 Xcode (9.2)
+#appstore 415166115 Typist (2.4.0)
+#appstore 497799835 Xcode (9.3)
 #appstore 639764244 Xee³ (3.5.3)
 
 # Other commands
