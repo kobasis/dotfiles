@@ -16,17 +16,17 @@ bind \cd delete-char
 alias g git
 alias docker-login docker_login
 if type gsed > /dev/null 2>&1
-  alias sed gsed
+  blias sed gsed
 end
 alias noti terminal-notifier
+alias fig docker-compose
+
 
 # env
 set -x EDITOR vim
-set -g fish_user_paths "/usr/local/sbin" $fish_user_paths
 
 # rbenv
 rbenv init - | source
-
 
 # Sync history
 function history-merge --on-event fish_preexec

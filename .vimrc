@@ -246,10 +246,6 @@ let g:neocomplete#enable_smart_case = 1
 " fish
 Plug 'dag/vim-fish'
 
-" Swift
-Plug 'keith/swift'
-let g:syntastic_swift_checkers = ['swiftpm', 'swiftlint']
-
 " Markdown
 Plug 'gabrielelana/vim-markdown'
 let g:markdown_include_jekyll_support = 0
@@ -290,7 +286,7 @@ au FileType go nmap <leader>c <Plug>(go-coverage)
 
 " powerline
 let g:powerline_pycmd="python3"
-python3 from powerline.vim import setup as powerline_setup
+silent! python3 from powerline.vim import setup as powerline_setup
 python3 powerline_setup()
 python3 del powerline_setup
 set laststatus=2
