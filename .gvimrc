@@ -3,7 +3,7 @@
 " An example for a Japanese version gvimrc file.
 " 日本語版のデフォルトGUI設定ファイル(gvimrc) - Vim7用試作
 "
-" Last Change: 20-Oct-2017.
+" Last Change: 01-Aug-2018.
 " Maintainer:  MURAOKA Taro <koron@tka.att.ne.jp>
 "
 " 解説:
@@ -78,7 +78,7 @@ if has('win32')
   endif
 elseif has('mac')
   set showtabline=2
-  set guifont=Menlo\ for\ Powerline:h14
+  set guifont=Menlo\ for\ Powerline:h16
   set transparency=0
 else
   " Linux
