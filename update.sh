@@ -8,6 +8,8 @@ brew update
 brew upgrade
 brew-file init -y
 git add .
-git commit -m "weekly"
+if [[ `git diff --cached` ]]; then
+  git commit -m "weekly"
+fi
 git push
 terminal-notifier  -title $BASENAME  -message "FINISHED!"
