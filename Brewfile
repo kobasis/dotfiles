@@ -100,7 +100,9 @@ brew install libzip
 brew install little-cms2
 brew install lua
 brew install mas
+brew install mcrypt
 brew install metis
+brew install mhash
 brew install mpfr
 brew install mysql
 brew install netpbm
@@ -118,6 +120,7 @@ brew install pcre2
 brew install peco
 brew install perl
 brew install php
+brew install php@5.6
 brew install pixman
 brew install pkg-config
 brew install plotutils
@@ -164,19 +167,17 @@ brew cask install java8
 
 brew tap homebrew/cask
 brew cask install 1password
-brew cask install android-studio
-brew cask install chatwork
-brew cask install db-browser-for-sqlite
-brew cask install docker
-brew cask install firefox
-brew cask install google-japanese-ime
-brew cask install java
-brew cask install karabiner-elements
-brew cask install kitematic
-brew cask install mysqlworkbench
-brew cask install querious
-brew cask install skim
-brew cask install texpad
+brew cask install appcleaner
+brew cask install dash
+brew cask install diffmerge
+brew cask install dropbox
+brew cask install google-chrome
+brew cask install intellij-idea
+brew cask install kindle
+brew cask install macdown
+brew cask install paw
+brew cask install sequel-pro
+brew cask install skype
 brew cask install typora
 brew cask install virtualbox
 brew cask install vivaldi
@@ -188,24 +189,22 @@ brew install brew-file
 
 # Other Cask applications
 brew cask install alfred
-brew cask install appcleaner
-brew cask install dash
-brew cask install diffmerge
-brew cask install dropbox
-brew cask install google-chrome
-brew cask install intellij-idea
-brew cask install kaleidoscope
-brew cask install kindle
-brew cask install macdown
-brew cask install paw
-brew cask install sequel-pro
-brew cask install skype
+brew cask install chatwork
+brew cask install db-browser-for-sqlite
+brew cask install docker
+brew cask install firefox
+brew cask install google-japanese-ime
+brew cask install java
+brew cask install kitematic
+brew cask install mysqlworkbench
+brew cask install querious
+brew cask install skim
 brew cask install tower
 brew cask install vagrant
 brew cask install visual-studio-code
 
 # App Store applications
-mas install 918858936 Airmail 3 (3.5.9)
+mas install 918858936 Airmail 3 (3.6.1)
 mas install 1037126344 Apple Configurator 2 (2.7.1)
 mas install 417375580 BetterSnapTool (1.8)
 mas install 1024640650 CotEditor (3.5.0)
