@@ -126,6 +126,7 @@ brew install pkg-config
 brew install plotutils
 brew install portaudio
 brew install pstoedit
+brew install pyenv
 brew install python
 brew install python@2
 brew install qcachegrind
@@ -223,11 +224,11 @@ mas install 452520982 MiniPicker (1.1)
 mas install 409203825 Numbers (5.1)
 mas install 867299399 OmniFocus (2.12.4)
 mas install 711830901 OmniGraffle (6.6.1)
-mas install 1142578772 OmniOutliner (5.3.3)
+mas install 1142578772 OmniOutliner (5.3.4)
 mas install 1040002810 OmniPlan (3.9.3)
 mas install 409201541 Pages (7.1)
 mas install 403504866 PCalc (4.5.7)
-mas install 407963104 Pixelmator (3.7.3)
+mas install 407963104 Pixelmator (3.7.4)
 mas install 568494494 Pocket (1.7.9)
 mas install 499768540 Power JSON Editor (1.6.1)
 mas install 476533227 Prepo (2.2.7)
