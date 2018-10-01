@@ -67,6 +67,9 @@ filetype plugin on
 " インクリメント時に、0ではじまっている数字を８進数として扱わない
 set nrformats=
 
+" 色
+" set termguicolors
+
 "========================================
 " 環境変数とか
 "========================================
@@ -233,6 +236,7 @@ Plug 'jiangmiao/auto-pairs'
 
 " colorscheme
 Plug 'tomasr/molokai'
+Plug 'phanviet/vim-monokai-pro'
 
 " 補完
 Plug 'Shougo/neocomplete'
@@ -269,8 +273,11 @@ let g:user_emmet_settings = {
 " Required:
 call plug#end()
 
-
-colorscheme molokai 
+set termguicolors
+let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum""]"
+"]"
+colorscheme monokai_pro
 
 hi Comment ctermfg=102
 hi Visual  ctermbg=236

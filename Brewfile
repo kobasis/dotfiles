@@ -207,7 +207,7 @@ brew cask install virtualbox
 brew cask install vivaldi
 
 # App Store applications
-mas install 918858936 Airmail 3 (3.6.3)
+mas install 918858936 Airmail 3 (3.6.41)
 mas install 1037126344 Apple Configurator 2 (2.8.1)
 mas install 417375580 BetterSnapTool (1.9)
 mas install 1024640650 CotEditor (3.6.0)
@@ -245,7 +245,7 @@ mas install 403388562 Transmit (4.4.12)
 mas install 1278508951 Trello (2.10.7)
 mas install 557168941 Tweetbot (2.5.8)
 mas install 415166115 Typist (2.4.0)
-mas install 1225570693 UlyssesMac (14)
+mas install 1225570693 UlyssesMac (14.2)
 mas install 497799835 Xcode (10.0)
 mas install 639764244 Xee³ (3.5.3)
 

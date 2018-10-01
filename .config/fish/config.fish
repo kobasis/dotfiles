@@ -20,6 +20,7 @@ if type gsed > /dev/null 2>&1
 end
 alias noti terminal-notifier
 alias fig docker-compose
+alias docker-exec "docker container exec -it"
 
 
 # env
