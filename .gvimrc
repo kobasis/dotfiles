@@ -3,7 +3,7 @@
 " An example for a Japanese version gvimrc file.
 " 日本語版のデフォルトGUI設定ファイル(gvimrc) - Vim7用試作
 "
-" Last Change: 28-Sep-2018.
+" Last Change: 10-Oct-2018.
 " Maintainer:  MURAOKA Taro <koron@tka.att.ne.jp>
 "
 " 解説:
@@ -63,6 +63,7 @@ endif
 "---------------------------------------------------------------------------
 
 " カラースキーム
+set termguicolors
 colorscheme monokai_pro
 
 "---------------------------------------------------------------------------

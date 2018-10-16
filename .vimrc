@@ -1,3 +1,61 @@
+" ******************************************************************************
+" プラグイン
+" ******************************************************************************
+
+" Required:
+call plug#begin('~/.vim/plugged')
+
+" 最近開いたファイル
+Plug 'vim-scripts/mru.vim'
+
+" sudo vim を行った際に.vimrcを見てくれる
+Plug 'vim-scripts/sudo.vim'
+
+" 定番
+Plug 'scrooloose/nerdtree'
+
+" 正規表現
+Plug 'othree/eregex.vim'
+
+" 閉じタグ
+Plug 'jiangmiao/auto-pairs'
+
+" colorscheme
+"Plug 'tomasr/molokai'
+Plug 'Erichain/vim-monokai-pro'
+
+" Yankring
+Plug 'vim-scripts/YankRing.vim'
+
+"============================================
+" Language Plugins
+"============================================
+" Go
+Plug 'fatih/vim-go'
+
+" Rubyのbegin/endをマッチング
+Plug 'vim-scripts/ruby-matchit'
+
+" Rubyのdef/endを自動入力
+Plug 'tpope/vim-endwise'
+
+" fish
+Plug 'dag/vim-fish'
+
+" Scala
+Plug 'derekwyatt/vim-scala'
+
+" Type-script
+Plug 'leafgarland/typescript-vim'
+
+" Markdown
+Plug 'gabrielelana/vim-markdown'
+let g:markdown_include_jekyll_support = 0
+let g:markdown_enable_spell_checking = 0
+
+" Required:
+call plug#end()
+
 "========================================
 " 設定
 "========================================
@@ -67,9 +125,6 @@ filetype plugin on
 " インクリメント時に、0ではじまっている数字を８進数として扱わない
 set nrformats=
 
-" 色
-" set termguicolors
-
 "========================================
 " 環境変数とか
 "========================================
@@ -87,7 +142,7 @@ endif
 
 " exキーの設定
 noremap ;  :
-noremap :  ;
+" noremap :  ;
 
 " マーク
 nnoremap ` '
@@ -118,20 +173,15 @@ cnoremap <expr> / getcmdtype() == '/' ? '¥/' : '/'
 "nnoremap <silent>  O :<C-u>call append(expand('.'), '')<Cr>j
 
 " レジスタ表示
-" nnoremap ,r :reg<CR>
+nnoremap ,r :reg<CR>
 
-" タグジャンプ周り
-nnoremap [Tag]   <Nop>
-nmap     t [Tag]
-nnoremap [Tag]t  <C-]>
-nnoremap <silent> [Tag]n  :<C-u>tag<CR>
-nnoremap <silent> [Tag]p  :<C-u>pop<CR>
-nnoremap <silent> [Tag]l  :<C-u>tags<CR>
-
-" 最後に編集した箇所を選択
-nnoremap gc `[v`]
-vnoremap gc :<C-u>normal gc<Enter>
-onoremap gc :<C-u>normal gc<Enter>
+"  タグジャンプ周り
+"nnoremap [Tag]   <Nop>
+"nmap     t [Tag]
+"nnoremap [Tag]t  <C-]>
+"nnoremap <silent> [Tag]n  :<C-u>tag<CR>
+"nnoremap <silent> [Tag]p  :<C-u>pop<CR>
+"nnoremap <silent> [Tag]l  :<C-u>tags<CR>
 
 " merge用
 if &diff
@@ -164,144 +214,25 @@ au BufRead,BufNewFile *.clj set filetype=clojure
 
 au BufRead,BufNewFile */.ssh/conf.d/**/* set filetype=sshconfig
 
-" ******************************************************************************
-" プラグイン
-" ******************************************************************************
-
-" Required:
-call plug#begin('~/.vim/plugged')
-
-" Go
-Plug 'fatih/vim-go'
-
-" 最近開いたファイル
-Plug 'vim-scripts/mru.vim'
-" sudo vim を行った際に.vimrcを見てくれる
-Plug 'vim-scripts/sudo.vim'
-
-" 定番
-Plug 'scrooloose/nerdtree'
-
-" Rubyのbegin/endをマッチング
-Plug 'vim-scripts/ruby-matchit'
-
-" Rubyのdef/endを自動入力
-Plug 'tpope/vim-endwise'
-
-" コードを実行
-Plug 'thinca/vim-quickrun'
-nnoremap <leader>r :QuickRun -mode n"<CR>
-let g:quickrun_config = get(g:, 'quickrun_config', {})
-let g:quickrun_config._ = {
-      \ 'runner'    : 'vimproc',
-      \ 'runner/vimproc/updatetime' : 60,
-      \ 'outputter' : 'error',
-      \ 'outputter/error/success' : 'buffer',
-      \ 'outputter/error/error'   : 'quickfix',
-      \ 'outputter/buffer/split'  : ':rightbelow 8sp',
-      \ 'outputter/buffer/close_on_empty' : 1,
-      \ }
-" 正規表現を許可
-Plug 'othree/eregex.vim'
-
-" 位置揃え
-Plug 'junegunn/vim-easy-align'
-
-" Scala用
-Plug 'derekwyatt/vim-scala'
-
-" サラウンド
-Plug 'tpope/vim-surround'
-
-" Type-script
-Plug 'leafgarland/typescript-vim'
-Plug 'clausreinke/typescript-tools'
-
-" シンタックスチェック
-Plug 'scrooloose/syntastic'
-
-" Python自動補完用
-Plug 'davidhalter/jedi-vim'
-let g:jedi#auto_initialization = 1
-
-" Python 文法チェッカ
-let g:syntastic_mode_map = {
-            \ 'mode': 'active',
-            \ 'active_filetypes': ['php', 'sh', 'vim'],
-            \ 'passive_filetypes': ['html', 'haskell', 'python']
-            \}
-
-" 自動で閉じるやつ
-Plug 'jiangmiao/auto-pairs'
-
-" colorscheme
-Plug 'tomasr/molokai'
-Plug 'phanviet/vim-monokai-pro'
-
-" 補完
-Plug 'Shougo/neocomplete'
-
-
-" Use neocomplete.
-let g:neocomplete#enable_at_startup = 1
-" " Use smartcase.
-let g:neocomplete#enable_smart_case = 1
-
-" fish
-Plug 'dag/vim-fish'
-
-" Markdown
-Plug 'gabrielelana/vim-markdown'
-let g:markdown_include_jekyll_support = 0
-let g:markdown_enable_spell_checking = 0
-
-" Marked
-Plug 'itspriddle/vim-marked'
-
-" Yankring
-Plug 'vim-scripts/YankRing.vim'
-
-" Close tag
-Plug 'alvan/vim-closetag'
-
-" Emmet
-Plug 'mattn/emmet-vim'
-let g:user_emmet_settings = {
-\   'lang' : 'ja'
-\ }
-
-" Required:
-call plug#end()
-
-set termguicolors
-let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
-let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum""]"
-"]"
-colorscheme monokai_pro
-
 hi Comment ctermfg=102
 hi Visual  ctermbg=236
 
-" Go
-let g:go_fmt_command = "goimports"
-let g:syntastic_go_checkers = ['golint', 'govet', 'errcheck']
-let g:syntastic_mode_map = { 'mode': 'active', 'passive_filetypes': ['go'] }
-au FileType go nmap <leader>r <Plug>(go-run)
-au FileType go nmap <leader>b <Plug>(go-build)
-au FileType go nmap <leader>t <Plug>(go-test)
-au FileType go nmap <leader>c <Plug>(go-coverage)
-
 " powerline
-let g:powerline_pycmd="python3"
-silent! python3 from powerline.vim import setup as powerline_setup
-python3 powerline_setup()
-python3 del powerline_setup
-set laststatus=2
-set showtabline=2
-set noshowmode
+if has("python3")
+  let g:powerline_pycmd="python3"
+  silent! python3 from powerline.vim import setup as powerline_setup
+  python3 powerline_setup()
+  python3 del powerline_setup
+  set laststatus=2
+  set showtabline=2
+  set noshowmode
+endif
 
 " モードによってカーソルを変更する
 let &t_ti.="\e[1 q"
 let &t_SI.="\e[5 q"
 let &t_EI.="\e[1 q"
 let &t_te.="\e[0 q"
+
+" Colorscheme
+colorscheme monokai_pro
