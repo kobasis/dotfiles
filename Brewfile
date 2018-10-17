@@ -96,17 +96,17 @@ brew tap homebrew/cask
 brew cask install 1password
 brew cask install appcleaner
 brew cask install dash
-brew cask install diffmerge
-brew cask install dropbox
-brew cask install google-chrome
-brew cask install intellij-idea
-brew cask install kindle
-brew cask install macdown
-brew cask install paw
-brew cask install sequel-pro
-brew cask install skype
-brew cask install typora
-brew cask install virtualbox
+brew cask install docker
+brew cask install github
+brew cask install google-japanese-ime
+brew cask install java
+brew cask install kitematic
+brew cask install mysqlworkbench
+brew cask install querious
+brew cask install skim
+brew cask install tower
+brew cask install vagrant
+brew cask install visual-studio-code
 
 brew tap argon/mas
 
@@ -120,27 +120,23 @@ brew install brew-file
 brew cask install alfred
 brew cask install chatwork
 brew cask install db-browser-for-sqlite
-brew cask install docker
-brew cask install github
-brew cask install google-japanese-ime
-brew cask install java
-brew cask install kitematic
-brew cask install mysqlworkbench
-brew cask install querious
-brew cask install skim
-brew cask install tower
-brew cask install vagrant
-brew cask install visual-studio-code
+brew cask install dropbox
+brew cask install google-chrome
+brew cask install intellij-idea
+brew cask install kindle
+brew cask install macdown
+brew cask install paw
+brew cask install sequel-pro
+brew cask install skype
+brew cask install typora
+brew cask install virtualbox
 
 # App Store applications
-mas install 918858936 Airmail 3 (3.6.50)
 mas install 1037126344 Apple Configurator 2 (2.8.1)
 mas install 417375580 BetterSnapTool (1.9)
 mas install 1024640650 CotEditor (3.6.2)
 mas install 913724705 Disk Care (1.5.1)
 mas install 775737590 iA Writer (5.1.3)
-mas install 490152466 iBooks Author (2.6.1)
-mas install 408981434 iMovie (10.1.9)
 mas install 404167677 IP Scanner Pro (3.68)
 mas install 1319778037 iStat Menus (6.21)
 mas install 409183694 Keynote (8.2)
@@ -158,19 +154,14 @@ mas install 403504866 PCalc (4.6.2)
 mas install 407963104 Pixelmator (3.7.5)
 mas install 568494494 Pocket (1.8.1)
 mas install 499768540 Power JSON Editor (1.6.1)
-mas install 476533227 Prepo (2.2.7)
 mas install 866773894 Quiver (3.1.3)
 mas install 588726889 ReadKit (2.5.4)
 mas install 880001334 Reeder (3.2.1)
-mas install 1196139545 SCONE Diff (1.0.4)
 mas install 803453959 Slack (3.3.2)
 mas install 425424353 The Unarchiver (4.0.0)
 mas install 458887729 Translate Tab (2.0.1)
 mas install 403388562 Transmit (4.4.12)
-mas install 1278508951 Trello (2.10.7)
 mas install 557168941 Tweetbot (2.5.8)
-mas install 415166115 Typist (2.4.0)
-mas install 1225570693 UlyssesMac (14.3)
 mas install 497799835 Xcode (10.0)
 mas install 639764244 Xee³ (3.5.3)
 
