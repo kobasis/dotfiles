@@ -14,7 +14,6 @@ fi
 # tap repositories and their packages
 
 brew tap homebrew/core
-brew install ansible
 brew install apr
 brew install apr-util
 brew install argon2
@@ -39,6 +38,7 @@ brew install icu4c
 brew install jpeg
 brew install jq
 brew install kotlin
+brew install kubernetes-cli
 brew install libevent
 brew install libffi
 brew install libiconv
@@ -96,17 +96,17 @@ brew tap homebrew/cask
 brew cask install 1password
 brew cask install appcleaner
 brew cask install dash
-brew cask install docker
-brew cask install github
-brew cask install google-japanese-ime
-brew cask install java
-brew cask install kitematic
-brew cask install mysqlworkbench
-brew cask install querious
-brew cask install skim
-brew cask install tower
-brew cask install vagrant
-brew cask install visual-studio-code
+brew cask install deltawalker
+brew cask install dropbox
+brew cask install google-chrome
+brew cask install intellij-idea
+brew cask install kindle
+brew cask install macdown
+brew cask install paw
+brew cask install sequel-pro
+brew cask install skype
+brew cask install typora
+brew cask install virtualbox
 
 brew tap argon/mas
 
@@ -120,21 +120,22 @@ brew install brew-file
 brew cask install alfred
 brew cask install chatwork
 brew cask install db-browser-for-sqlite
-brew cask install dropbox
-brew cask install google-chrome
-brew cask install intellij-idea
-brew cask install kindle
-brew cask install macdown
-brew cask install paw
-brew cask install sequel-pro
-brew cask install skype
-brew cask install typora
-brew cask install virtualbox
+brew cask install docker
+brew cask install github
+brew cask install google-japanese-ime
+brew cask install java
+brew cask install kitematic
+brew cask install mysqlworkbench
+brew cask install querious
+brew cask install skim
+brew cask install tower
+brew cask install vagrant
+brew cask install visual-studio-code
 
 # App Store applications
 mas install 1037126344 Apple Configurator 2 (2.8.1)
 mas install 417375580 BetterSnapTool (1.9)
-mas install 1024640650 CotEditor (3.6.2)
+mas install 1024640650 CotEditor (3.6.3)
 mas install 913724705 Disk Care (1.5.1)
 mas install 775737590 iA Writer (5.1.3)
 mas install 404167677 IP Scanner Pro (3.68)
@@ -150,7 +151,7 @@ mas install 1142578772 OmniOutliner (5.3.4)
 mas install 1040002810 OmniPlan (3.10.2)
 mas install 409201541 Pages (7.2)
 mas install 600925318 Parallels Client (16.5.20447)
-mas install 403504866 PCalc (4.6.2)
+mas install 403504866 PCalc (4.6.4)
 mas install 407963104 Pixelmator (3.7.5)
 mas install 568494494 Pocket (1.8.1)
 mas install 499768540 Power JSON Editor (1.6.1)
