@@ -140,40 +140,7 @@ endif
 " キーバインド
 "========================================
 
-" exキーの設定
-noremap ;  :
-" noremap :  ;
-
-" マーク
-nnoremap ` '
-nnoremap ' `
-
-" コマンドラインモード
-nnoremap q; q:
-nnoremap q: q;
-
-" バッファ移動
-nnoremap <silent> [b :bprevious<CR>
-nnoremap <silent> ]b :bnext<CR>
-nnoremap <silent> [B :bfirst<CR>
-nnoremap <silent> ]B :blast<CR>
-
-" 素早くヘルプを引く
-nnoremap <C-h>  :<C-u>help<Space>
-nnoremap <C-h><C-h>  :<C-u>help<Space><C-r><C-w><CR>
-
-" 以下スペースPrefix
-nnoremap <Space>s. :<C-u>source $MYVIMRC<CR>
-nnoremap <Space>.  :<C-u>edit $MYVIMRC<CR>
-
-" 検索を楽ちんにする
-cnoremap <expr> / getcmdtype() == '/' ? '¥/' : '/'
-
-" 改行ハック
-"nnoremap <silent>  O :<C-u>call append(expand('.'), '')<Cr>j
-
-" レジスタ表示
-nnoremap ,r :reg<CR>
+source ~/.vimrc.keymap
 
 "  タグジャンプ周り
 "nnoremap [Tag]   <Nop>
