@@ -54,3 +54,9 @@ endif
 
 " very magic 検索
 nnoremap /  /\v
+
+" Emacs like
+inoremap <C-p> <Up> 
+inoremap <C-f> <Right> 
+inoremap <C-n> <Down> 
+inoremap <C-b> <Left> 
