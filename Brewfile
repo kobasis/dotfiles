@@ -140,6 +140,7 @@ brew cask install typora
 brew cask install virtualbox
 
 # App Store applications
+mas install 918858936 Airmail 3 (3.6.50)
 mas install 417375580 BetterSnapTool (1.9)
 mas install 1024640650 CotEditor (3.6.4)
 mas install 913724705 Disk Care (1.5.1)
@@ -154,7 +155,7 @@ mas install 452520982 MiniPicker (1.1)
 mas install 409203825 Numbers (5.3)
 mas install 867299399 OmniFocus (2.12.4)
 mas install 711830901 OmniGraffle (6.6.1)
-mas install 1142578772 OmniOutliner (5.3.4)
+mas install 1142578772 OmniOutliner (5.4.1)
 mas install 1040002810 OmniPlan (3.10.2)
 mas install 409201541 Pages (7.3)
 mas install 600925318 Parallels Client (16.5.20447)
@@ -170,6 +171,7 @@ mas install 425424353 The Unarchiver (4.0.0)
 mas install 458887729 Translate Tab (2.0.1)
 mas install 403388562 Transmit (4.4.12)
 mas install 557168941 Tweetbot (2.5.8)
+mas install 1384080005 Tweetbot (3.2)
 mas install 497799835 Xcode (10.1)
 mas install 639764244 Xee³ (3.5.3)
 
