@@ -28,6 +28,7 @@ brew install freetype
 brew install gdbm
 brew install gettext
 brew install git
+brew install git-flow
 brew install git-lfs
 brew install glib
 brew install gmp
@@ -86,7 +87,7 @@ brew install tig
 brew install tmux
 brew install tree
 brew install unixodbc
-brew install vim --with-lua
+brew install vim
 brew install webp
 brew install wget
 brew install xz
@@ -142,12 +143,12 @@ brew cask install virtualbox
 # App Store applications
 mas install 918858936 Airmail 3 (3.6.50)
 mas install 417375580 BetterSnapTool (1.9)
-mas install 1024640650 CotEditor (3.6.4)
+mas install 1024640650 CotEditor (3.6.6)
 mas install 913724705 Disk Care (1.5.1)
 mas install 672206759 Disk Diag (1.4)
 mas install 775737590 iA Writer (5.1.3)
-mas install 404167677 IP Scanner Pro (3.68)
-mas install 1319778037 iStat Menus (6.21)
+mas install 404167677 IP Scanner Pro (3.69)
+mas install 1319778037 iStat Menus (6.30)
 mas install 409183694 Keynote (8.3)
 mas install 890031187 Marked 2 (2.5.27)
 mas install 1063631769 Medis (0.6.0)
@@ -163,7 +164,7 @@ mas install 403504866 PCalc (4.6.4)
 mas install 407963104 Pixelmator (3.7.5)
 mas install 568494494 Pocket (1.8.1)
 mas install 499768540 Power JSON Editor (1.6.1)
-mas install 866773894 Quiver (3.1.3)
+mas install 866773894 Quiver (3.2)
 mas install 588726889 ReadKit (2.6.1)
 mas install 880001334 Reeder (3.2.1)
 mas install 803453959 Slack (3.3.3)
