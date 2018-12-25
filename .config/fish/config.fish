@@ -11,6 +11,7 @@ bind \cd delete-char
 function fish_user_key_bindings
   # fzf
   bind \ef '__fzf_find_file'
+  bind \ed '__fzf_cd'
   bind \cr '__fzf_reverse_isearch'
   bind \co '__fzf_open --editor'
 
@@ -25,6 +26,3 @@ end
 
 # env
 set -x EDITOR vim
-
-# rbenv
-rbenv init - | source

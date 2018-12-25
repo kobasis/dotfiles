@@ -76,10 +76,9 @@ brew install pcre2
 brew install perl
 brew install php
 brew install pkg-config
-brew install pyenv
+brew install pstree
 brew install python
 brew install python@2
-brew install rbenv
 brew install readline
 brew install reattach-to-user-namespace
 brew install ripgrep
@@ -154,7 +153,7 @@ mas install 417375580 BetterSnapTool (1.9)
 mas install 1024640650 CotEditor (3.6.9)
 mas install 913724705 Disk Care (1.5.1)
 mas install 672206759 Disk Diag (1.4)
-mas install 775737590 iA Writer (5.1.3)
+mas install 775737590 iA Writer (5.2.1)
 mas install 404167677 IP Scanner Pro (3.69)
 mas install 1319778037 iStat Menus (6.31)
 mas install 409183694 Keynote (8.3)
