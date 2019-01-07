@@ -92,6 +92,7 @@ brew install terminal-notifier
 brew install tidy-html5
 brew install tig
 brew install tmux
+brew install trash
 brew install tree
 brew install unixodbc
 brew install vim
@@ -116,9 +117,9 @@ brew cask install kitematic
 brew cask install mysqlworkbench
 brew cask install querious
 brew cask install skim
-brew cask install tower
-brew cask install vagrant
-brew cask install visual-studio-code
+brew cask install station
+brew cask install typora
+brew cask install virtualbox
 
 brew tap argon/mas
 
@@ -144,17 +145,18 @@ brew cask install macdown
 brew cask install paw
 brew cask install sequel-pro
 brew cask install skype
-brew cask install typora
-brew cask install virtualbox
+brew cask install tower
+brew cask install vagrant
+brew cask install visual-studio-code
 
 # App Store applications
-mas install 918858936 Airmail 3 (3.6.54)
+mas install 918858936 Airmail 3 (3.6.56)
 mas install 417375580 BetterSnapTool (1.9)
-mas install 1024640650 CotEditor (3.6.9)
+mas install 1024640650 CotEditor (3.6.11)
 mas install 913724705 Disk Care (1.5.1)
 mas install 672206759 Disk Diag (1.4)
 mas install 775737590 iA Writer (5.2.1)
-mas install 404167677 IP Scanner Pro (3.69)
+mas install 404167677 IP Scanner Pro (3.70)
 mas install 1319778037 iStat Menus (6.31)
 mas install 409183694 Keynote (8.3)
 mas install 890031187 Marked 2 (2.5.27)
@@ -164,7 +166,7 @@ mas install 409203825 Numbers (5.3)
 mas install 867299399 OmniFocus (2.12.4)
 mas install 711830901 OmniGraffle (6.6.1)
 mas install 1142578772 OmniOutliner (5.4.1)
-mas install 1040002810 OmniPlan (3.10.2)
+mas install 1040002810 OmniPlan (3.10.3)
 mas install 409201541 Pages (7.3)
 mas install 600925318 Parallels Client (16.5.20585)
 mas install 403504866 PCalc (4.6.4)
@@ -178,6 +180,7 @@ mas install 880001334 Reeder (3.2.1)
 mas install 803453959 Slack (3.3.3)
 mas install 1183412116 Swiftify for Xcode (4.5.1)
 mas install 425424353 The Unarchiver (4.0.0)
+mas install 904280696 Things3 (3.8)
 mas install 458887729 Translate Tab (2.0.3)
 mas install 403388562 Transmit (4.4.12)
 mas install 557168941 Tweetbot (2.5.8)
