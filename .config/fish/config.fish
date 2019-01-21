@@ -7,17 +7,16 @@ end
 # bind
 bind -e \cd
 bind \cd delete-char
+bind \cf forward-char
 
-function fish_user_key_bindings
-  # fzf
-  bind \ef '__fzf_find_file'
-  bind \ed '__fzf_cd'
-  bind \cr '__fzf_reverse_isearch'
-  bind \co '__fzf_open --editor'
+# fzf
+bind \ef '__fzf_find_file'
+bind \ed '__fzf_cd'
+bind \cr '__fzf_reverse_isearch'
+bind \co '__fzf_open --editor'
 
-  # ghq
-  bind \cg '__ghq_crtl_g'
-end
+# ghq
+bind \cg '__ghq_crtl_g'
 
 # alias
 if type gsed > /dev/null 2>&1
