@@ -77,12 +77,12 @@ brew install openssl
 brew install pcre
 brew install pcre2
 brew install perl
-brew install php
 brew install php@7.2
 brew install pkg-config
 brew install pstree
 brew install python
 brew install python@2
+brew install rbenv
 brew install readline
 brew install reattach-to-user-namespace
 brew install rename
@@ -161,8 +161,8 @@ mas install 918858936 Airmail 3 (3.6.57)
 mas install 973134470 Be Focused (1.7.5)
 mas install 961632517 Be Focused Pro (1.7.5)
 mas install 417375580 BetterSnapTool (1.9)
-mas install 1024640650 CotEditor (3.7.0)
-mas install 1055511498 Day One (2.9.2)
+mas install 1024640650 CotEditor (3.7.1)
+mas install 1055511498 Day One (3.0)
 mas install 913724705 Disk Care (1.5.1)
 mas install 672206759 Disk Diag (1.4)
 mas install 406056744 Evernote (7.8)
@@ -183,14 +183,14 @@ mas install 409201541 Pages (7.3)
 mas install 600925318 Parallels Client (16.5.20585)
 mas install 403504866 PCalc (4.6.4)
 mas install 407963104 Pixelmator (3.8.1)
-mas install 568494494 Pocket (1.8.1)
-mas install 499768540 Power JSON Editor (1.6.2)
+mas install 568494494 Pocket (1.8.2)
+mas install 499768540 Power JSON Editor (1.6.3)
 mas install 414848186 Quick Note (1.3.11)
 mas install 866773894 Quiver (3.2.4)
 mas install 588726889 ReadKit (2.6.1)
 mas install 880001334 Reeder (3.2.1)
 mas install 803453959 Slack (3.3.7)
-mas install 1183412116 Swiftify for Xcode (4.6)
+mas install 1183412116 Swiftify for Xcode (4.6.1)
 mas install 404010395 TextWrangler (5.5.2)
 mas install 425424353 The Unarchiver (4.1.0)
 mas install 904280696 Things3 (3.8.1)
