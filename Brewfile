@@ -28,6 +28,8 @@ brew install cocoapods
 brew install composer
 brew install coreutils
 brew install curl-openssl
+brew install dep
+brew install direnv
 brew install fish
 brew install freetds
 brew install freetype
@@ -104,6 +106,7 @@ brew install ripgrep
 brew install rtmpdump
 brew install ruby
 brew install ruby-build
+brew install rust
 brew install sbt
 brew install scala
 brew install sqlite
@@ -175,7 +178,7 @@ brew cask install typora
 brew cask install virtualbox
 
 # App Store applications
-mas install 404167677 com.10baseT.IPScannerProMac (3.71)
+mas install 404167677 com.10baseT.IPScannerProMac (3.81)
 mas install 600925318 com.2X.Client.Mac (16.5.20740)
 mas install 497799835 com.apple.dt.Xcode (10.2.1)
 mas install 409183694 com.apple.iWork.Keynote (9.0.2)
@@ -184,14 +187,14 @@ mas install 409201541 com.apple.iWork.Pages (8.0)
 mas install 404010395 com.barebones.textwrangler (5.5.2)
 mas install 1319778037 com.bjango.istatmenus.mas (6.31)
 mas install 890031187 com.brettterpstra.marked2 (2.5.33)
-mas install 1024640650 com.coteditor.CotEditor (3.7.3)
-mas install 904280696 com.culturedcode.ThingsMac (3.8.5)
+mas install 1024640650 com.coteditor.CotEditor (3.7.4)
+mas install 904280696 com.culturedcode.ThingsMac (3.9.1)
 mas install 414848186 com.diigo.quicknote (1.3.11)
-mas install 406056744 com.evernote.Evernote (7.9.1)
+mas install 406056744 com.evernote.Evernote (7.10)
 mas install 847809913 com.fiplab.downloadmanager (2.4)
 mas install 866773894 com.happenapps.Quiver (3.2.5)
 mas install 417375580 com.hegenberg.BetterSnapTool (1.9)
-mas install 1289197285 com.ideasoncanvas.mindnode.macos (6.0.1)
+mas install 1289197285 com.ideasoncanvas.mindnode.macos (6.0.2)
 mas install 913724705 com.itsabouttime.Disk-App (1.5.1)
 mas install 1346203938 com.omnigroup.OmniFocus3.MacAppStore (3.3.2)
 mas install 711830901 com.omnigroup.OmniGraffle6.MacAppStore (6.6.1)
@@ -213,7 +216,7 @@ mas install 961632517 com.xwavesoft.pomodoromac (1.7.5)
 mas install 425424353 cx.c3.theunarchiver (4.1.0)
 mas install 639764244 cx.c3.Xee3 (3.5.3)
 mas install 918858936 it.bloop.airmail2 (3.6.58)
-mas install 1063631769 li.zihua.medis (0.6.0)
+mas install 1063631769 li.zihua.medis (1.0.2)
 mas install 452520982 net.jaij.MiniPicker (1.1)
 mas install 775737590 pro.writer.mac (5.2.6)
 mas install 403504866 uk.co.tla-systems.pcalc (4.6.4)
